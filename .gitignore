@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+pflanzen_bilder/
+pflanzen_log.csv
+pflanzen_referenz.json

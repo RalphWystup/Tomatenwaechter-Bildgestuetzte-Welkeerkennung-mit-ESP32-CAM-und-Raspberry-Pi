@@ -1,0 +1,24 @@
+[Unit]
+# Tomaten-Bewaesserungswaechter: Bildabholung, Auswertung, Web-Dashboard
+# und OLED-Anzeige. Wird von install_pi.sh mit den richtigen Pfaden
+# nach /etc/systemd/system/ kopiert (__BENUTZER__ / __ORDNER__ werden ersetzt).
+Description=Tomaten-Bewaesserungswaechter (Dashboard + OLED)
+Documentation=file://__ORDNER__/ANLEITUNG_Pi_OLED.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=__BENUTZER__
+WorkingDirectory=__ORDNER__
+ExecStart=/usr/bin/python3 __ORDNER__/pflanzen_dashboard.py
+Environment=PYTHONUNBUFFERED=1
+# Nach jedem Fehler neu starten - der Waechter soll ohne Bedienung durchlaufen.
+Restart=always
+RestartSec=15
+# Meldungen landen im Journal:  journalctl -u pflanzen_waechter -f
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
