@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Wenn Sie diese Arbeit verwenden, zitieren Sie sie bitte wie folgt."
+title: "Tomatenwächter"
+abstract: "Wann muss gegossen werden? Eine solarbetriebene Kamera erkennt hängende Blätter am Excess-Green-Index, ein Raspberry Pi entscheidet und zeigt es auf einem Display."
+type: software
+authors:
+  - family-names: Wystup
+    given-names: Ralph
+    name-particle: ""
+    name-suffix: "Prof. Dr.-Ing., M.Sc."
+license: MIT
+url: "https://ralphwystup.github.io/Tomatenwaechter-Bildgestuetzte-Welkeerkennung-mit-ESP32-CAM-und-Raspberry-Pi/"
+repository-code: "https://github.com/RalphWystup/Tomatenwaechter-Bildgestuetzte-Welkeerkennung-mit-ESP32-CAM-und-Raspberry-Pi"
+date-released: "2026-09-30"
+keywords:
+  - Excess-Green-Index
+  - Pflanzenerkennung
+  - ESP32-CAM
+  - Raspberry Pi
+  - Solar
