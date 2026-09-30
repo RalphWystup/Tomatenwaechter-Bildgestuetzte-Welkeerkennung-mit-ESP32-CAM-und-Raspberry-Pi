@@ -1,0 +1,34 @@
+{
+  "title": "Tomatenwächter",
+  "description": "<p>Wann muss gegossen werden? Eine solarbetriebene Kamera erkennt hängende Blätter am Excess-Green-Index, ein Raspberry Pi entscheidet und zeigt es auf einem Display.</p><p>Die Arbeit besteht aus einem Manuskript, das die Herleitung geschlossen zeigt, einer Seite, die im Browser rechnet und ohne Netz läuft, einem Prüfplan mit einer Schranke je Kriterium, und den zugehörigen Programmen und Messdaten. Seite: <a href=\"https://ralphwystup.github.io/Tomatenwaechter-Bildgestuetzte-Welkeerkennung-mit-ESP32-CAM-und-Raspberry-Pi/\">https://ralphwystup.github.io/Tomatenwaechter-Bildgestuetzte-Welkeerkennung-mit-ESP32-CAM-und-Raspberry-Pi/</a> · Übersicht aller Arbeiten: <a href=\"https://ralphwystup.github.io/\">https://ralphwystup.github.io/</a></p>",
+  "creators": [
+    {
+      "name": "Wystup, Ralph"
+    }
+  ],
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "language": "deu",
+  "keywords": [
+    "Excess-Green-Index",
+    "Pflanzenerkennung",
+    "ESP32-CAM",
+    "Raspberry Pi",
+    "Solar"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://ralphwystup.github.io/Tomatenwaechter-Bildgestuetzte-Welkeerkennung-mit-ESP32-CAM-und-Raspberry-Pi/",
+      "relation": "isIdenticalTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://ralphwystup.github.io/",
+      "relation": "isPartOf",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Erstellt mit KI und Agent (Claude Code, Anthropic). Alle Zahlen gerechnet oder gemessen, jede Rechnung von Hand nachvollziehbar."
+}
